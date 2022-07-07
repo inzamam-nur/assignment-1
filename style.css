@@ -1,0 +1,192 @@
+/* Add Custoim Font Here  Yeseva One + Poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;700;800&display=swap');
+
+/*  Start Css From Here */
+body{
+    margin: 0px;
+    padding:0px;
+    font-family: poppins;
+}
+main{
+    max-width: 1200px;
+    margin:auto;
+}
+.first-div{
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    vertical-align: middle;
+    padding: 15% 0;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.text_first_div{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    color: white;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 19px;
+}
+.main-button{
+    background-color: rgb(240, 90, 90);
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: 19px;
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.donate{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 100px;
+}
+.amount_taka{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    font-size: 30px;
+}
+.taka{
+    background-color: rgb(224, 240, 235);
+    background-position: fixed;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 0px 20px 0px;
+
+}
+#five_hundred{
+    background-color: rgb(237, 163, 163);
+    background-position: fixed;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 0px 20px 0px;
+    border-width: 3px;
+    border-color: rgb(240, 90, 90);
+    border-style: solid;
+}
+.input{
+    border: none;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+
+}
+.input_type{
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+    
+
+}
+hr{
+    width: 70%;
+}
+.half-width{
+    padding-top: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 30%;
+    border-radius: 10px;
+    font-size: 19px;
+    padding-bottom: 5%;
+}
+.three-div{
+    display: flex;
+    column-gap: 20px;
+   
+}
+.divcolor-one{
+    background-color: antiquewhite;
+}
+.divcolor-two{
+    background-color: rgb(235, 234, 232);
+}
+.divcolor-three{
+    background-color: rgb(164, 240, 173);
+}
+.subscirbe{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding: 10% 5% 5% 10%;
+}
+.email{
+  width:400px;
+  padding:30px;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #c5c7cb;
+}
+.sub-button{
+    background-color: rgb(240, 90, 90);
+    padding: 15px 40px 15px 44px;
+    border-width: 0px;
+    font-size: 19px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.mission{
+    display: flex;
+    column-gap: 50px;
+    padding-top: 150px;
+    
+}
+.mission img{
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 5px 5px 5px 00px rgb(210, 210, 210);
+}
+
+h4{
+    font-size: 30px;
+    padding-top: 50px;
+
+}
+.mission-two-div{
+   padding-top: 50%;
+}
+.footer_h1{
+    font-family: Lobster;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FF5959;;
+    }
+.footer{
+background: #0B0D17;
+padding: 40px 0px;
+text-align: center;
+margin-top: 200px;
+    }
+em{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px; 
+    color: #D9DBE1;
+}
